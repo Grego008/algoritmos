@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="gabriel.gregorio"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-29 04:32:42 "/>
+        <attribute name="created" value="Z2FicmllbC5ncmVnb3JpbztERVNLVE9QLUpITzQ3MUw7MjAyNC0wMS0yOTsiMDQ6MTY6NDIgIjszODY2"/>
+        <attribute name="edited" value="Z2FicmllbC5ncmVnb3JpbztERVNLVE9QLUpITzQ3MUw7MjAyNC0wMS0yOTsiMDQ6MzI6NDIgIjsxOzM5NzI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="dia, mes, ano, idade" type="Integer" array="False" size=""/>
+            <input variable="dia"/>
+            <input variable="mes"/>
+            <input variable="ano"/>
+            <assign variable="idade" expression="2024 - ano"/>
+            <output expression="idade" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

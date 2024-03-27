@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="gabriel.gregorio"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-29 02:02:14 "/>
+        <attribute name="created" value="Z2FicmllbC5ncmVnb3JpbztERVNLVE9QLUpITzQ3MUw7MjAyNC0wMS0yNDsiMDQ6NDg6MDQgIjszODY0"/>
+        <attribute name="edited" value="Z2FicmllbC5ncmVnb3JpbztERVNLVE9QLUpITzQ3MUw7MjAyNC0wMS0yOTsiMDI6MDI6MTQgIjs3OzM5NzI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <for variable="a" start="1" end="100" direction="inc" step="2">
+                <if expression="a % 3 != 0">
+                    <then>
+                        <output expression="a" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

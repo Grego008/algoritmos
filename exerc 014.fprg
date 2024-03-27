@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="gabriel.gregorio"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-01-29 02:51:52 "/>
+        <attribute name="created" value="Z2FicmllbC5ncmVnb3JpbztERVNLVE9QLUpITzQ3MUw7MjAyNC0wMS0yNDsiMDQ6NDg6MDQgIjszODY0"/>
+        <attribute name="edited" value="Z2FicmllbC5ncmVnb3JpbztERVNLVE9QLUpITzQ3MUw7MjAyNC0wMS0yOTsiMDI6NTE6NTIgIjsxMTs0MDIx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="inicio do algoritmo fazer&#13;&#10;"/>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <assign variable="c" expression="1"/>
+            <do expression="c &lt;= 100">
+                <if expression="c % 7 == 0">
+                    <then>
+                        <output expression="c" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="c" expression="c + 1"/>
+            </do>
+            <comment text="fim do algoritmo fazer"/>
+            <comment text="inicio do algoritmo enquanto"/>
+            <assign variable="b" expression="1"/>
+            <while expression="b &lt;= 100">
+                <if expression="b % 13 == 0">
+                    <then>
+                        <output expression="b" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <assign variable="b" expression="b+1"/>
+            </while>
+            <comment text="fim do algoritmo enquanto"/>
+            <comment text="inicio do algoritmo para"/>
+            <for variable="a" start="1" end="100" direction="inc" step="1&#13;&#10;">
+                <if expression="a % 2 != 0">
+                    <then>
+                        <if expression="a % 3 !=0">
+                            <then>
+                                <output expression="a" newline="True"/>
+                            </then>
+                            <else/>
+                        </if>
+                    </then>
+                    <else/>
+                </if>
+            </for>
+            <comment text="fim do algoritmo para"/>
+        </body>
+    </function>
+</flowgorithm>

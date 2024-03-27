@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="gabriel.gregorio"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-03-04 08:52:27 "/>
+        <attribute name="created" value="Z2FicmllbC5ncmVnb3JpbztOVDIwOzIwMjQtMDMtMDQ7IjA4OjQ5OjUyICI7MzA5Mg=="/>
+        <attribute name="edited" value="Z2FicmllbC5ncmVnb3JpbztOVDIwOzIwMjQtMDMtMDQ7IjA4OjUyOjI3ICI7MTszMTk2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, n, m" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <assign variable="n" expression="a-1"/>
+            <assign variable="m" expression="a+1"/>
+            <output expression="n" newline="True"/>
+            <output expression="m" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
